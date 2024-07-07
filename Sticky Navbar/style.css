@@ -1,0 +1,54 @@
+body{
+    margin:0;
+
+}
+.top-container{
+  background-image: url(copy.jpg);
+  height:100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+
+}
+.top-container h1{
+    color: azure;
+    font-size: 50px;
+}
+
+.text{
+    margin:50px 5%;
+    
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: aliceblue;
+    width:100%;
+    justify-content: space-between;
+  align-items: center;
+  transition: background-color .4s;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar ul li a {
+ text-decoration: none;
+ margin: 0 10px 0 14px;;
+ color: rgb(93, 203, 203);
+ margin-right: 30px;;
+ 
+
+}
+
+.navbar ul li a:hover{
+    color: blueviolet;
+}
+.navbar.active{
+    background-color: rgb(60, 31, 103);
+}
